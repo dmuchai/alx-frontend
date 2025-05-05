@@ -232,36 +232,6 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-.visually-hidden {
-  display: none;
-}
-
-.card-category {
-  color: var(--color-primary);
-}
-
-.section {
-  padding: var(--section-padding);
-}
-
-.section-header {
-  text-align: var(--section-header-align);
-  padding: var(--section-header-padding);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
-}
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
-}
-
-.footer {
-  padding: var(--footer-padding);
-}
-
 .navbar-menu {
   float: right;
 }
@@ -291,8 +261,34 @@ nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+.footer {
+  padding: var(--footer-padding);
+}		
+
 .section-header {
   text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 
 .section-title {
@@ -362,8 +358,8 @@ h1, h2, h3, h4, h5, h6 {
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 0.4rem;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 3rem 0 0 0;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
